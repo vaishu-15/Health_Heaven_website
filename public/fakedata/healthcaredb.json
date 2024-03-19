@@ -2,15 +2,6 @@
 	"services": [
 		{
 			"id": 1,
-			"class": "",
-			"treatment": "Cardiology",
-			"price": 15000,
-			"description": "Keeping your heart strong and healthy is crucial to your overall well-being. Our cardiology services are here to help you manage and treat your heart health no matter what you might need.",
-			"icon": "https://i.ibb.co/DpVdYqQ/heart-2.png",
-			"service_img": "https://i.ibb.co/rG0TSwX/01.jpg"
-		},
-		{
-			"id": 2,
 			"class": "animation",
 			"treatment": "Neurology",
 			"price": 25000,
@@ -19,7 +10,7 @@
 			"service_img": "https://i.ibb.co/Bn2GG0N/06.jpg"
 		},
 		{
-			"id": 3,
+			"id": 2,
 			"class": "",
 			"treatment": "Stomach",
 			"price": 3000,
@@ -28,16 +19,16 @@
 			"service_img": "https://i.ibb.co/CK7Y2DD/03.jpg"
 		},
 		{
-			"id": 4,
+			"id": 3,
 			"class": "",
 			"treatment": "Covid 19",
-			"price": 100,
+			"price": 500,
 			"description": "Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age.",
 			"icon": "https://i.ibb.co/NWKjgmj/virus-2.png",
 			"service_img": "https://i.ibb.co/3FS3B8h/08.jpg"
 		},
 		{
-			"id": 5,
+			"id": 4,
 			"class": "animation",
 			"treatment": "Lungs",
 			"price": 9000,
@@ -46,7 +37,7 @@
 			"service_img": "https://i.ibb.co/q9SM3XT/10.jpg"
 		},
 		{
-			"id": 6,
+			"id": 5,
 			"class": "",
 			"treatment": "Bronchus",
 			"price": 1800,
@@ -55,7 +46,7 @@
 			"service_img": "https://i.ibb.co/dDsVnnZ/09.jpg"
 		},
 		{
-			"id": 7,
+			"id": 6,
 			"class": "",
 			"treatment": "Vaccine",
 			"price": 0,

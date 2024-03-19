@@ -5,13 +5,13 @@
 
 .text-style:hover {
     text-decoration: none;
-    color: #d81b60;
+    color: #3a8dd7;
 }
 
 .text-style-fullscrn {
-    background-color: #f48fb1;
+    background-color: #2e6ba0;
 }
 
 .text-style-fullscrn:hover {
-    background-color: plum;
+    background-color: #3a8dd7;
 }
