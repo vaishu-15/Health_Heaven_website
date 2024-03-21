@@ -28,7 +28,7 @@ const Doctors = () => {
               sx={{
                 bgcolor: "#f3f8fb",
                 color: "primary.main",
-                p: 2,
+                p: 6,
                 mb: 2,
                 mt: 6,
                 textAlign: "center",
