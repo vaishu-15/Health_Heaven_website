@@ -20,10 +20,11 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import swal from "sweetalert";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import useAuth from "../../../Hooks/useAuth";
+//  import { ToastContainer, toast } from "react-toastify";
+//  import "react-toastify/dist/ReactToastify.css";
 
 const Appointment = () => {
   const { user } = useAuth();
-
   const [docName, setDocName] = useState("");
   const [name, setName] = useState(user.displayName);
   const [email, setEmail] = useState(user.email);
@@ -51,6 +52,8 @@ const Appointment = () => {
     setProblemType(event.target.value);
   };
 
+  // const notify = () => toast("Enter the required fields");
+
   const validateForm = () => {
     return docName !== "" && name !== "" && email !== "" && problemType !== "";
   };
@@ -60,6 +63,8 @@ const Appointment = () => {
       swalAlert();
     } else {
       // Handle form submission error
+      // notify();
+      alert("Enter the required fields");
     }
   };
 
@@ -166,6 +171,7 @@ const Appointment = () => {
           <AddCircleIcon /> Confirm
         </Button>
       </Container>
+      {/* <ToastContainer /> */}
     </Box>
   );
 };
