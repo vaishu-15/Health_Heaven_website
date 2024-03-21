@@ -78,7 +78,7 @@ const Footer = () => {
                   <Avatar sx={{ mt: 1, bgcolor: blue[500] }}>
                     <LocationOnIcon />
                   </Avatar>
-                  <span>Tejgaon I/A, Dhaka-1208</span>
+                  <span>Moradabad UttarPradesh</span>
                 </Stack>
 
                 <Stack
@@ -90,8 +90,8 @@ const Footer = () => {
                   <Avatar sx={{ mb: 1, mt: 1, bgcolor: blue[500] }}>
                     <EmailIcon />
                   </Avatar>
-                  <a className="text-style" href="mailto:mh.foysal.h@gmail.com">
-                    mh.foysal.h@gmail.com
+                  <a className="text-style" href="mailto:vaishali15yadav@gmail.com">
+                    vaishali15yadav@gmail.com
                   </a>
                 </Stack>
 
@@ -179,11 +179,11 @@ const Footer = () => {
                   </Avatar>
                   <a
                     className="text-style"
-                    href="https://www.facebook.com/iamfoysal.h"
+                    href="https://www.facebook.com/iamvaishali"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Foysal on Facebook
+                    Vaishali on Facebook
                   </a>
                 </Stack>
 
@@ -198,11 +198,11 @@ const Footer = () => {
                   </Avatar>
                   <a
                     className="text-style"
-                    href="https://www.linkedin.com/in/md-foysal-h/"
+                    href="https://www.linkedin.com/in/vaishali-yadav-93b564200/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Foysal on LinkedIn
+                    Vaishali on LinkedIn
                   </a>
                 </Stack>
 
@@ -217,11 +217,11 @@ const Footer = () => {
                   </Avatar>
                   <a
                     className="text-style"
-                    href="https://github.com/Foy5al"
+                    href="https://github.com/vaishu-15"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Foysal on GitHub
+                    Vaishali on GitHub
                   </a>
                 </Stack>
               </Grid>

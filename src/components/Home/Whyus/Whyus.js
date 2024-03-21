@@ -49,7 +49,7 @@ const Whyus = () => {
                   className={service.class}
                   item
                   xs={12}
-                  md={6}
+                  md={5}
                   lg={4}
                 >
                   <Card
@@ -137,18 +137,18 @@ const Whyus = () => {
 
 export default Whyus;
 
-{/* <Card sx={{ display: 'flex', mx: 'auto', my: 2 }}>
-                 <Box sx={{ display: 'flex', flexDirection: 'row' }}>
-                    <CardContent sx={{ flex: '1 0 auto' }}>
-                        <Typography component="div" variant="h5">
-                            {service.treatment}
-                        </Typography>
-                    </CardContent>
-                 </Box>
-                    <CardMedia
-                    component="img"
-                    sx={{ width: 151 }}
-                    image={service?.service_img}
-                    alt="User Image"
-                    />
-                </Card>  */}
+// <Card sx={{ display: 'flex', mx: 'auto', my: 2 }}>
+//                  <Box sx={{ display: 'flex', flexDirection: 'row' }}>
+//                     <CardContent sx={{ flex: '1 0 auto' }}>
+//                         <Typography component="div" variant="h5">
+//                             {service.treatment}
+//                         </Typography>
+//                     </CardContent>
+//                  </Box>
+//                     <CardMedia
+//                     component="img"
+//                     sx={{ width: 151 }}
+//                     image={service?.service_img}
+//                     alt="User Image"
+//                     />
+//                 </Card>  
