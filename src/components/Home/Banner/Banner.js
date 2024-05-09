@@ -33,22 +33,24 @@ const Banner = () => {
         )
     }
     const items = [
-        {
-            name: "You are just one click away from your healthy life",
-            description: "Probably the most random thing you have ever seen!",
-            img: "https://img.freepik.com/free-photo/close-up-doctor-is-showing-medical-analytics-data_33799-4417.jpg?w=996"
-        },
-        {
-            name: "Consult with experts Online 24/7",
-            description: "Get Online support from oue expert Doctor 24/7 and lead a healthy life",
-            img: "https://img.freepik.com/free-photo/make-appointment-see-doctor-online-diagnosis-treatmentfamily-health-care_537132-1364.jpg?w=996"
-        },
-        {
-            name: "Check Your Health Condition Regularly",
-            description: "Upto date with your health condition prevention is always better than cure",
-            img: "https://img.freepik.com/free-photo/young-male-psysician-with-patient-measuring-blood-pressure_1303-17879.jpg?t=st=1651807889~exp=1651808489~hmac=72e2292253947f9900d3250347f844e08a169fc70d5fb64d4cf51674000033fa&w=996"
-        }
-    ]
+      {
+        name: "You are just one click away from your healthy life",
+        description: "Probably the most random thing you have ever seen!",
+        img: "https://content.jdmagicbox.com/comp/bangalore/g3/080pxx80.xx80.220405120836.d1g3/catalogue/pragathi-multi-speciality-hospital-konanakunte-cross-bangalore-hospitals-9ba1xkgwa1.jpg",
+      },
+      {
+        name: "Consult with experts Online 24/7",
+        description:
+          "Get Online support from oue expert Doctor 24/7 and lead a healthy life",
+        img: "https://t3.ftcdn.net/jpg/02/96/74/64/360_F_296746476_F0wDElEXSb0Rd1tyDnsCBLVBHGAsJm3O.jpg",
+      },
+      {
+        name: "Check Your Health Condition Regularly",
+        description:
+          "Upto date with your health condition prevention is always better than cure",
+        img: "https://media.licdn.com/dms/image/C5112AQGWk8JmyngUBA/article-cover_image-shrink_720_1280/0/1550820421196?e=2147483647&v=beta&t=Vtw5g45AbAkY5UG0b99cCTK1QqwzwlDWE6apHBnVDbw",
+      },
+    ];
     return (
         <div>
             <Carousel>
